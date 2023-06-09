@@ -1,9 +1,12 @@
 import { useState } from "react";
-
-import "./App.css";
+import SideNav from "./components/SideNav";
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <SideNav />
+    </>
+  );
 }
 
 export default App;
