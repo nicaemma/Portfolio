@@ -13,6 +13,7 @@ function Main() {
       <img
         className="w-full h-screen object-cover object-left"
         src="https://media.istockphoto.com/id/1295282802/vector/young-woman-is-sitting-at-a-computer-in-a-room-with-a-large-window-concept-of-remote-work.jpg?s=612x612&w=0&k=20&c=kT9_TlCVQ5fEHVa7oT_3gZ3z3wXddnypCVh8dvgUziw="
+        // make responsive focus on image later
       ></img>
       <div className="w-full h-screen absolute top-0 left-0 bg-white/50">
         <div className="max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center">
