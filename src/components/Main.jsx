@@ -21,14 +21,19 @@ function Main() {
             Nica Weisinger
           </h1>
           <h2 className="flex sm:text-3xl text-2xl pt-4 text-gray-800">
-            Rotating text--
             <TypeAnimation
               // play with options later --> https://react-type-animation.netlify.app/options
               sequence={[
-                " This is the first",
-                1000,
-                " This is the second",
-                2000,
+                "Engineer",
+                1200,
+                "Teacher",
+                1200,
+                "Artist",
+                1200,
+                "Plant mom",
+                1200,
+                "Rock climber",
+                1200,
               ]}
               wrapper="div"
               speed={50}
