@@ -4,7 +4,7 @@ import Workplace from "./Workplace";
 const data = [
   {
     year: 2023,
-    title: "Fullstack Academy",
+    title: "Fullstack Academy Graduate",
     duration: "6 Months",
     details:
       "Earned a Software Engineering Certificate from the Immersive Web Development Bootcamp. Studied full-stack development and built projects using JavaScript, React, Node.js, PostgreSQL, and more.",
@@ -14,14 +14,14 @@ const data = [
     title: "Math Teacher",
     duration: "1 Year",
     details:
-      "Designed and implemented 6th and 7th grade math curriculums that successfully addressed pandemic-induced gaps in learning and social-emotional development while maintaining grade-level Common Core State Standards mastery.",
+      "Led the 6th and 7th grade math department of a Math & Sciences school for young women. Designed and implemented math curriculums for four classes.",
   },
   {
     year: 2016,
     title: "Math Teacher, Grade Team Lead, Instructional Coach",
     duration: "5 Years",
     details:
-      "Led weekly meetings, delegated tasks, and coached teachers in their instruction. Served as lead instructor of general education and special education math classes.",
+      "Led team meetings, delegated tasks, and coached teachers in their instruction. Served as lead instructor of general education and special education math classes.",
   },
 ];
 
