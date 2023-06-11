@@ -3,13 +3,14 @@ import Workplace from "./Workplace";
 
 const data = [
   {
-    year: 2022,
-    title: "Fullstack Academy Graduate",
+    year: 2023,
+    title: "Fullstack Academy",
     duration: "6 Months",
-    details: "Summary of software engineering program.",
+    details:
+      "Earned a Software Engineering Certificate from the Immersive Web Development Bootcamp. Studied full-stack development and built projects using JavaScript, React, Node.js, PostgreSQL, and more.",
   },
   {
-    year: 2021,
+    year: 2022,
     title: "Math Teacher",
     duration: "1 Year",
     details:
@@ -27,7 +28,7 @@ const data = [
 function Work() {
   return (
     <div id="work" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
-      <h1 className="text-4xl font-bold text-center text-[#001b5e] pb-6">
+      <h1 className="text-4xl font-bold text-center text-[#001b5e] pb-8">
         Experience
       </h1>
       {data.map((item, idx) => (
