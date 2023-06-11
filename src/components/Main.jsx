@@ -6,8 +6,13 @@ import {
   FaLinkedin,
   FaGithub,
 } from "react-icons/fa";
+import { BsFileEarmarkPerson } from "react-icons/bs";
 
 function Main() {
+  const newTab = (url) => {
+    window.open(url, "_blank", "noreferrer");
+  };
+
   return (
     <div id="main">
       <img
@@ -47,9 +52,30 @@ function Main() {
             />
           </h2>
           <div className="flex justify-between pt-6 max-w-[200px] w-full">
-            <FaLinkedinIn className="cursor-pointer" size={25} />
-            <FaGithub className="cursor-pointer" size={25} />
-            <FaInstagram className="cursor-pointer" size={25} />
+            <FaLinkedinIn
+              onClick={() =>
+                newTab("http://www.linkedin.com/in/nica-weisinger")
+              }
+              className="cursor-pointer"
+              size={25}
+            />
+            <FaGithub
+              onClick={() => newTab("http://www.github.com/nicaemma")}
+              className="cursor-pointer"
+              size={25}
+            />
+            {/* <FaInstagram
+              onClick={() => newTab("https://www.instagram.com/nicaemma/")}
+              className="cursor-pointer"
+              size={25}
+            /> */}
+            <BsFileEarmarkPerson
+              onClick={() =>
+                newTab("https://nicaemma.github.io/resume/resume.pdf")
+              }
+              className="cursor-pointer"
+              size={25}
+            />
           </div>
         </div>
       </div>
