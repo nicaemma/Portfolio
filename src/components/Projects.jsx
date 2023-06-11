@@ -11,8 +11,18 @@ function Projects() {
         Projects
       </h1>
       <div className="grid sm:grid-cols-2 gap-12">
-        <ProjectItem img={howlrImg} title="Howlr App" />
-        <ProjectItem img={mindfulImg} title="Mindfulness App" />
+        <ProjectItem
+          img={howlrImg}
+          title="Howlr App"
+          visit="https://howlr.netlify.app/"
+          github="https://github.com/team-asteroids/capstone"
+        />
+        <ProjectItem
+          img={mindfulImg}
+          title="Mindfulness App"
+          visit=""
+          github=""
+        />
         {/* <ProjectItem img={pokehomeImg} title="PokeHome App" /> */}
       </div>
     </div>
