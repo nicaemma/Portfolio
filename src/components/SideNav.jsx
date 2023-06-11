@@ -87,7 +87,7 @@ const SideNav = () => {
               <BsPerson />
             </a>
             <a
-              href="contact"
+              href="#contact"
               className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
             >
               <AiOutlineMail />
