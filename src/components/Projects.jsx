@@ -1,7 +1,7 @@
 import React from "react";
 import ProjectItem from "./ProjectItem";
 import howlrImg from "../assets/howlr.jpg";
-import mindfulImg from "../assets/mindful.jpeg";
+import mindfulImg from "../assets/MindfulMoments.jpg";
 // import pokehomeImg from "../assets/pokehome1.png";
 
 function Projects() {
@@ -13,7 +13,7 @@ function Projects() {
       <div className="grid sm:grid-cols-2 gap-12">
         <ProjectItem
           img={howlrImg}
-          title="Howlr App"
+          title="Howlr Website"
           visit="https://howlr.netlify.app/"
           github="https://github.com/team-asteroids/capstone"
         />

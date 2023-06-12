@@ -6,9 +6,9 @@ function ProjectItem({ img, title, visit, github }) {
   };
 
   const howlr =
-    "rounded-xl group-hover:opacity-10 object-fill w-[100%] h-[100%] border border-[#ead6e6]";
+    "rounded-xl group-hover:opacity-0 object-fill w-[100%] h-[100%] border border-[#ead6e6]";
   const regular =
-    "rounded-xl group-hover:opacity-10 object-fill w-[100%] h-[100%]";
+    "rounded-xl group-hover:opacity-0 object-fill w-[100%] h-[100%] border border-[#ead6e6]";
 
   console.log("image-->", img);
 
@@ -19,26 +19,34 @@ function ProjectItem({ img, title, visit, github }) {
         alt="/"
         className={img === "/src/assets/howlr.jpg" ? howlr : regular}
       />
-      <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y[-50]">
+      <div className="hidden group-hover:block absolute top-[30%] left-[50%] translate-x-[-50%] translate-y[-50]">
         <h3 className="text-2xl font-bold text-white tracking-wider text-center pb-4">
           {title}
         </h3>
         {/* <p className="pb-4 pt-2 text-white text-center">Technology used</p>
         customize techs used with props */}
-        <div className="grid md:grid-cols-2 gap-4 w-full py-2">
-          <p
-            onClick={() => newTab(visit)}
-            className="cursor-pointer flex flex-col text-center p-3 rounded-lg bg-white text-gray-700 font-bold"
-          >
-            Visit!
-          </p>
-          <p
-            onClick={() => newTab(github)}
-            className="cursor-pointer flex flex-col text-center p-3 rounded-lg bg-white text-gray-700 font-bold"
-          >
-            Github
-          </p>
-        </div>
+        {img === "/src/assets/howlr.jpg" ? (
+          <div className="grid md:grid-cols-2 gap-4 w-full py-2">
+            <p
+              onClick={() => newTab(visit)}
+              className="cursor-pointer flex flex-col text-center p-3 rounded-lg bg-white text-gray-700 font-bold"
+            >
+              Visit!
+            </p>
+            <p
+              onClick={() => newTab(github)}
+              className="cursor-pointer flex flex-col text-center p-3 rounded-lg bg-white text-gray-700 font-bold"
+            >
+              Github
+            </p>
+          </div>
+        ) : (
+          <div>
+            <p className="flex flex-col text-center p-3 rounded-lg bg-white text-gray-700 font-bold">
+              Coming Soon!
+            </p>
+          </div>
+        )}
       </div>
     </div>
   );
