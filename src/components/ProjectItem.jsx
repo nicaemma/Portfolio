@@ -25,7 +25,7 @@ function ProjectItem({ img, title, visit, github }) {
         </h3>
         {/* <p className="pb-4 pt-2 text-white text-center">Technology used</p>
         customize techs used with props */}
-        {img === "/src/assets/howlr.jpg" ? (
+        {title === "Howlr Website" ? (
           <div className="grid md:grid-cols-2 gap-4 w-full py-2">
             <p
               onClick={() => newTab(visit)}
