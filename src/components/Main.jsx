@@ -71,7 +71,7 @@ function Main() {
             /> */}
             <BsFileEarmarkPerson
               onClick={() =>
-                newTab("https://nicaemma.github.io/resume/resume.pdf")
+                newTab("https://nicaemma.github.io/resume/NicaWeisinger.pdf")
               }
               className="cursor-pointer"
               size={25}
