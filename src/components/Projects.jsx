@@ -21,7 +21,7 @@ function Projects() {
           img={mindfulImg}
           title="Mindfulness App"
           visit=""
-          github=""
+          github="https://github.com/nicaemma/stackathon"
         />
         {/* <ProjectItem img={pokehomeImg} title="PokeHome App" /> */}
       </div>

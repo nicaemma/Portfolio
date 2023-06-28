@@ -42,8 +42,14 @@ function ProjectItem({ img, title, visit, github }) {
           </div>
         ) : (
           <div>
+            <p
+              onClick={() => newTab(github)}
+              className="flex flex-col text-center p-3 rounded-lg bg-white text-gray-700 font-bold"
+            >
+              GitHub
+            </p>
             <p className="flex flex-col text-center p-3 rounded-lg bg-white text-gray-700 font-bold">
-              Coming Soon!
+              Deployed link coming soon!
             </p>
           </div>
         )}
