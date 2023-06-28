@@ -35,6 +35,8 @@ function Main() {
                 1200,
                 "Artist",
                 1200,
+                "Runner",
+                1200,
                 "Plant mom",
                 1200,
                 "Rock climber",
