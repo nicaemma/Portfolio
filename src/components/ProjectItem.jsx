@@ -27,30 +27,30 @@ function ProjectItem({ img, title, visit, github }) {
         customize techs used with props */}
         {title === "Howlr Website" ? (
           <div className="grid md:grid-cols-2 gap-4 w-full py-2">
-            <p
+            <button
               onClick={() => newTab(visit)}
-              className="cursor-pointer flex flex-col text-center p-3 rounded-lg bg-white text-gray-700 font-bold"
+              className="cursor-pointer text-center p-3 rounded-lg bg-white text-black hover:bg-gray-200"
             >
               Visit!
-            </p>
-            <p
+            </button>
+            <button
               onClick={() => newTab(github)}
-              className="cursor-pointer flex flex-col text-center p-3 rounded-lg bg-white text-gray-700 font-bold"
+              className="cursor-pointer text-center p-3 rounded-lg bg-white text-black hover:bg-gray-200"
             >
               Github
-            </p>
+            </button>
           </div>
         ) : (
-          <div>
-            <p
+          <div className="grid md:grid-row-2 gap-4 w-full py-2">
+            <button
               onClick={() => newTab(github)}
-              className="flex flex-col text-center p-3 rounded-lg bg-white text-gray-700 font-bold"
+              className="cursor-pointer text-center p-3 rounded-lg bg-white text-black hover:bg-gray-200"
             >
               GitHub
-            </p>
-            <p className="flex flex-col text-center p-3 rounded-lg bg-white text-gray-700 font-bold">
+            </button>
+            <button className="text-center p-3 rounded-lg bg-gray-300 text-black">
               Deployed link coming soon!
-            </p>
+            </button>
           </div>
         )}
       </div>
