@@ -59,7 +59,7 @@ function ProjectItem({ img, title, visit, github }) {
             </button>
             <button
               onClick={() => newTab(visit)}
-              className="text-center p-3 rounded-lg bg-gray-300 text-black"
+              className="cursor-pointer text-center p-3 rounded-lg bg-white text-black hover:bg-gray-200"
             >
               Visit!
             </button>
