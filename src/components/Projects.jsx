@@ -19,7 +19,7 @@ function Projects() {
         />
         <ProjectItem
           img={mindfulImg}
-          title="Mindfulness App"
+          title="Self Care Website"
           visit="https://stackathon-68512.web.app/"
           github="https://github.com/nicaemma/stackathon"
         />
