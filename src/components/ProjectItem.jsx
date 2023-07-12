@@ -1,5 +1,7 @@
 import React from "react";
 
+const video = "https://youtu.be/8o0uvSKPJms";
+
 function ProjectItem({ img, title, visit, github }) {
   const newTab = (url) => {
     window.open(url, "_blank", "noreferrer");
@@ -28,16 +30,22 @@ function ProjectItem({ img, title, visit, github }) {
         {title === "Howlr Website" ? (
           <div className="grid md:grid-cols-2 gap-4 w-full py-2">
             <button
-              onClick={() => newTab(visit)}
+              onClick={() => newTab(video)}
               className="cursor-pointer text-center p-3 rounded-lg bg-white text-black hover:bg-gray-200"
             >
-              Visit!
+              Video presentation
             </button>
             <button
               onClick={() => newTab(github)}
               className="cursor-pointer text-center p-3 rounded-lg bg-white text-black hover:bg-gray-200"
             >
               Github
+            </button>
+            <button
+              onClick={() => newTab(visit)}
+              className="cursor-pointer text-center p-3 rounded-lg bg-white text-black hover:bg-gray-200"
+            >
+              Visit! (database is being reset for 72 hours on July 10)
             </button>
           </div>
         ) : (
