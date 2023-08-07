@@ -27,11 +27,11 @@ function ProjectItem({ img, title, visit, github }) {
         </h3>
         {/* <p className="pb-4 pt-2 text-white text-center">Technology used</p>
         customize techs used with props */}
-        {title === "Howlr Website" ? (
+        {title === "Howlr" ? (
           <div className="grid md:grid-row-2 gap-4 w-full py-2">
             <button
               onClick={() => newTab(github)}
-              className="cursor-pointer text-center p-3 rounded-lg bg-white text-black hover:bg-gray-200"
+              className="cursor-pointer text-center p-3 px-8 rounded-lg bg-white text-black hover:bg-gray-200"
             >
               Github
             </button>
@@ -46,11 +46,11 @@ function ProjectItem({ img, title, visit, github }) {
               onClick={() => newTab(visit)}
               className="cursor-pointer text-center p-3 rounded-lg bg-white text-black hover:bg-gray-200"
             >
-              Visit! <div>(database reset July 10-12)</div>
+              Visit!
             </button>
           </div>
         ) : (
-          <div className="grid md:grid-row-2 gap-4 w-full py-2">
+          <div className="grid md:grid-row-2 gap-4 py-2">
             <button
               onClick={() => newTab(github)}
               className="cursor-pointer text-center p-3 rounded-lg bg-white text-black hover:bg-gray-200"
