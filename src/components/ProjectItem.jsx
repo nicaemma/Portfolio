@@ -12,8 +12,6 @@ function ProjectItem({ img, title, visit, github }) {
   const regular =
     "rounded-xl group-hover:opacity-0 object-fill w-[100%] h-[100%] border border-[#ead6e6]";
 
-  console.log("image-->", img);
-
   return (
     <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-gray-200 to-[#001b5e]">
       <img
@@ -25,8 +23,6 @@ function ProjectItem({ img, title, visit, github }) {
         <h3 className="text-2xl font-bold text-white tracking-wider text-center pb-4">
           {title}
         </h3>
-        {/* <p className="pb-4 pt-2 text-white text-center">Technology used</p>
-        customize techs used with props */}
         {title === "Howlr" ? (
           <div className="grid md:grid-row-3 gap-4 w-full py-2">
             <button
