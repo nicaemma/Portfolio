@@ -16,6 +16,7 @@ function Projects() {
           title="Howlr"
           visit="https://howlr.netlify.app/"
           github="https://github.com/team-asteroids/capstone"
+          video="https://www.youtube.com/watch?v=8o0uvSKPJms&ab_channel=FullstackAcademy"
         />
         <ProjectItem
           img={mindfulImg}
