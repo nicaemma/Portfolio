@@ -13,13 +13,13 @@ function Projects() {
       <div className="grid sm:grid-cols-2 gap-12">
         <ProjectItem
           img={howlrImg}
-          title="Social Media Website"
+          title="Howlr"
           visit="https://howlr.netlify.app/"
           github="https://github.com/team-asteroids/capstone"
         />
         <ProjectItem
           img={mindfulImg}
-          title="Self Care Website"
+          title="Mindful Matters"
           visit="https://stackathon-68512.web.app/"
           github="https://github.com/nicaemma/stackathon"
         />
