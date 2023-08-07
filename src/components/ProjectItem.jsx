@@ -21,14 +21,14 @@ function ProjectItem({ img, title, visit, github }) {
         alt="/"
         className={img === "/src/assets/howlr.jpg" ? howlr : regular}
       />
-      <div className="hidden group-hover:block absolute top-[30%] left-[50%] translate-x-[-50%] translate-y[-50]">
+      <div className="hidden group-hover:block absolute justify-center left-[50%] translate-x-[-50%] translate-y[-50]">
         <h3 className="text-2xl font-bold text-white tracking-wider text-center pb-4">
           {title}
         </h3>
         {/* <p className="pb-4 pt-2 text-white text-center">Technology used</p>
         customize techs used with props */}
         {title === "Howlr" ? (
-          <div className="grid md:grid-row-2 gap-4 w-full py-2">
+          <div className="grid md:grid-row-3 gap-4 w-full py-2">
             <button
               onClick={() => newTab(github)}
               className="cursor-pointer text-center p-3 px-8 rounded-lg bg-white text-black hover:bg-gray-200"
@@ -37,14 +37,14 @@ function ProjectItem({ img, title, visit, github }) {
             </button>
             <button
               onClick={() => newTab(video)}
-              className="cursor-pointer text-center p-3 rounded-lg bg-white text-black hover:bg-gray-200"
+              className="cursor-pointer text-center p-3 px-8 rounded-lg bg-white text-black hover:bg-gray-200"
             >
               Video
             </button>
 
             <button
               onClick={() => newTab(visit)}
-              className="cursor-pointer text-center p-3 rounded-lg bg-white text-black hover:bg-gray-200"
+              className="cursor-pointer text-center p-3 px-8 rounded-lg bg-white text-black hover:bg-gray-200"
             >
               Visit!
             </button>
